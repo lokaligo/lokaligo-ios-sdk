@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.public_header_files = "LokaligoSDK.framework/**/*.h"
   spec.preserve_paths   = "LokaligoSDK.framework"
   spec.summary          = 'Quick and easy management of the localization process for your app.'
-  spec.source           = { :http => 'http://ocs-pl.oktawave.com/v1/AUTH_f6c4cb3b-0d15-4229-a596-a8677b4f5606/downloads/lokaligo_ios_sdk.zip' }
+  spec.source           = { :http => 'http://ocs-pl.oktawave.com/v1/AUTH_f6c4cb3b-0d15-4229-a596-a8677b4f5606/downloads/lokaligo_ios_sdk.zip', :sha1 => '7d8d2d1c920884b39718e3021118a0f746817402' }
   spec.requires_arc     = true
   spec.vendored_frameworks = 'LokaligoSDK.framework'
 end
