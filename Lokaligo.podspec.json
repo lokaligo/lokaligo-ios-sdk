@@ -14,7 +14,7 @@
     "ios": "6.0"
   },
   "source": {
-    "http": "https://ocs-pl.oktawave.com/v1/AUTH_f6c4cb3b-0d15-4229-a596-a8677b4f5606/downloads/lokaligo_ios_sdk.zip"
+    "http": "http://ocs-pl.oktawave.com/v1/AUTH_f6c4cb3b-0d15-4229-a596-a8677b4f5606/downloads/lokaligo_ios_sdk.zip"
   },
   "public_header_files": "LokaligoSDK.framework/**/*.h",
   "preserve_paths": "LokaligoSDK.framework",
