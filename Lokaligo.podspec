@@ -1,9 +1,13 @@
 Pod::Spec.new do |spec|
   spec.name             = 'Lokaligo'
-  spec.version          = '1.0.0'
+  spec.version          = '1.0.1'
   spec.license          = { :type => 'Commercial', :text => "See https://lokaligo.com/terms" }
   spec.homepage         = 'https://lokaligo.com'
   spec.authors          = { 'Lokaligo' => 'mateusz@lokaligo.com' }
+  spec.description = <<-DESC
+                     Lokaligo SDK for iOS gives you several advantages, including ability to update the translation strings remotely without the need to update the app itself. It can also capture the screenshots of your app, which can help your translators to understand the usage context of a given phrase.
+                     Note that this library requires to subscribe to one of the non-free plans on lokaligo.com.
+                    DESC
   spec.libraries        = 'c++', 'xml2', 'z'
   spec.platform         = :ios
   spec.pod_target_xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/Lokaligo/"' }
