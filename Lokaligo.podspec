@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'Lokaligo'
-  spec.version          = '1.0.1'
+  spec.version          = '1.0.2'
   spec.license          = { :type => 'Commercial', :text => "See https://lokaligo.com/terms" }
   spec.homepage         = 'https://lokaligo.com'
   spec.authors          = { 'Lokaligo' => 'mateusz@lokaligo.com' }
@@ -16,5 +16,6 @@ Pod::Spec.new do |spec|
   spec.summary          = 'Quick and easy management of the localization process for your app.'
   spec.source           = { :http => 'https://ocs-pl.oktawave.com/v1/AUTH_f6c4cb3b-0d15-4229-a596-a8677b4f5606/downloads/lokaligo_ios_sdk.zip' }
   spec.requires_arc     = true
+  spec.ios.deployment_target = "7.0"
   spec.vendored_frameworks = 'LokaligoSDK.framework'
 end

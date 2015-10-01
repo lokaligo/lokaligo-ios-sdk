@@ -13,4 +13,10 @@ it, simply add the following line to your Podfile:
 pod 'Lokaligo'
 ```
 
+## Features
+
+- Remote strings — Spotted a typo in production build? With Lokaligo, any change you make can be automatically visible to all the users of your app. Mobile SDK allows you to change the text remotely. There’s no need to bother the programmers or upload a new version of the app.
+
+- Contextual screenshots — One great thing about the SDK, is that it can take screenshots of your app, so the translators of your app will be able to do a better job, as it will be easier for them to understand the context of the text they need to translate.
+
 &copy; Lokaligo 2015
