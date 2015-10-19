@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'Lokaligo'
-  spec.version          = '1.0.4'
+  spec.version          = '1.0.5'
   spec.license          = { :type => 'Commercial', :text => "See https://lokaligo.com/terms" }
   spec.homepage         = 'https://lokaligo.com'
   spec.authors          = { 'Lokaligo' => 'mateusz@lokaligo.com' }
