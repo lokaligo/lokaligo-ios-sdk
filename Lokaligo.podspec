@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name             = 'Lokaligo'
-  spec.version          = '1.0.8'
+  spec.version          = '1.0.9'
   spec.license          = { :type => 'Commercial', :text => "See https://lokaligo.com/terms" }
   spec.homepage         = 'https://lokaligo.com'
   spec.authors          = { 'Lokaligo' => 'mateusz@lokaligo.com' }
@@ -18,4 +18,5 @@ Pod::Spec.new do |spec|
   spec.requires_arc     = true
   spec.ios.deployment_target = "7.0"
   spec.vendored_frameworks = 'LokaligoSDK.framework'
+  spec.deprecated = true
 end
